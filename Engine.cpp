@@ -11,7 +11,7 @@ void run()
     int Clock;
     //construct local Particle to be used for unit testing 
     int Particle;
-    
+
     cout << "Starting Particle unit tests..." << endl;
     Particle p(m_Window, 4, { (int)m_Window.getSize().x / 2, (int)m_Window.getSize().y / 2 });
     p.unitTests();
@@ -38,6 +38,8 @@ void update(float dtAsSeconds)
 }
 void draw()
 {
-
+    //clear the window 
+    window.clear();
+    //loop though each partivlr 
 
 }
